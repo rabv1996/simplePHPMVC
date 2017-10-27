@@ -22,6 +22,12 @@
             //llamar al controlador
             require_once("controllers/home.control.php");
             break;
+            case "prdbacklog":
+            require_once("controllers/prdbacklog.control.php");
+            break;
+            case "nprdbacklog":
+            require_once("controllers/nprdbacklog.control.php");
+            break;
         default:
             require_once("controllers/error.control.php");
     }
